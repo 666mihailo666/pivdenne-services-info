@@ -2,6 +2,10 @@
 
 ## 12 October 2026
 
+- Added 1–3 distinct categories per submission, with optional additional choices, duplicate/max-three validation and atomic moderator publication across categories; preserved existing single-category requests.
+- Added compact Ukrainian/Russian category hashtags to all cards and search matching; generated tags are excluded from all report formats.
+- Updated multilingual help and verified all 97 tests.
+
 - Localized all bot navigation, search prompts, result labels, submission category choices, export category labels, administrator panels and Telegram command descriptions into Ukrainian. Stored category identifiers and original provider text remain unchanged.
 - Synchronized guide button names with the Ukrainian interface; verified 22 menu, submission, export and Telegram checks.
 
