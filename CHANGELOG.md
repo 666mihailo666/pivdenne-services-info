@@ -2,6 +2,10 @@
 
 ## 12 October 2026
 
+- Added PDF and UTF-8 TXT downloads for filtered search results and administrator-only full-directory exports.
+- Embedded Cyrillic fonts in PDF and added page numbers and a clickable italic Ukrainian contact footer on each page.
+- Added the same footer in italic at the end of Excel files and as plain text at the end of TXT files.
+
 - Added Excel downloads below search/category results, including all matching pages and preserving the current filter.
 - Added a full directory Excel export restricted to the configured administrator.
 - Added manual contact entry and a moderation topic shortcut to the administrator panel.
