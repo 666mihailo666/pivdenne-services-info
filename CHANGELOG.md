@@ -2,6 +2,9 @@
 
 ## 12 October 2026
 
+- Rewrote Ukrainian, Russian and English Telegraph guides for the current search, result exports, submission workflow, phone matching, privacy and troubleshooting; removed outdated planned-feature statements.
+- Updated public documentation for current administrator statistics, moderation, broadcasts and full-directory exports.
+
 - Refined PDF styling with the bot avatar, a single-line directory title, larger service headings and phone numbers, and clearer spacing on every page.
 - Fixed server installation of italic PDF fonts; placed the Ukrainian contact line in the Excel header, below the TXT search label and at the bottom of each PDF page.
 
