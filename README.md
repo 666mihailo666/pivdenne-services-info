@@ -6,7 +6,7 @@ A free Telegram directory of local services in Pivdenne, Ukraine.
 
 Find local providers by service, category or phone number. This public repository contains documentation only. The application, collection scripts and operational configuration are maintained in a separate private repository.
 
-**[Ukrainian help on Telegraph](https://telegra.ph/Dovіdnik-poslug-Pіvdennogo--іnstrukcіya-10-12)**
+**Telegraph help:** [English](https://telegra.ph/Pivdenne-Services--User-Guide-10-12) · [Русский](https://telegra.ph/Spravochnik-uslug-Pіvdennogo--instrukciya-10-12) · [Українська](https://telegra.ph/Dovіdnik-poslug-Pіvdennogo--іnstrukcіya-10-12)
 
 ## Using the bot
 
@@ -47,7 +47,7 @@ Use `/stop` to unsubscribe from broadcasts; `/start` subscribes again. Unsubscri
 
 ## Implemented and planned
 
-Available: Ukrainian Telegraph help, category browsing, service/phone search, grouped provider phones, Ukrainian welcome and support text, administrator statistics and confirmed broadcasts.
+Available: multilingual Telegraph help, category browsing, service/phone search, grouped provider phones, Ukrainian welcome and support text, administrator statistics and confirmed broadcasts.
 
 Planned, not yet available: user-submitted listings with group moderation, manual administrator contact entry, spreadsheet/PDF export, event logging to a group topic. These will be documented as they are released.
 
