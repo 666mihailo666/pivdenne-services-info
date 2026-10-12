@@ -2,6 +2,11 @@
 
 ## 12 October 2026
 
+- Added Excel downloads below search/category results, including all matching pages and preserving the current filter.
+- Added a full directory Excel export restricted to the configured administrator.
+- Added manual contact entry and a moderation topic shortcut to the administrator panel.
+- Kept grouped phone numbers in one row, preserved full descriptions, and stored provider text as text rather than executable spreadsheet formulas.
+
 - Added persistent user service submissions: category selection, normalized Ukrainian phone, description and confirmation preview.
 - Added administrator moderation in a dedicated Telegram group topic: edit category/phone/description, publish or reject; repeated approval is idempotent.
 - Prevented duplicate manual listings by matching phone and category before publication.
