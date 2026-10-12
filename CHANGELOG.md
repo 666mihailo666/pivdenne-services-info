@@ -2,6 +2,9 @@
 
 ## 12 October 2026
 
+- Added the owner-selected Pivdenne welcome postcard and warm Ukrainian introduction on /start, followed by the main menu; /menu remains text-only.
+- Added multipart photo delivery, included the image in the private application assets, updated all language guides and verified 105 tests.
+
 - Linked @ID_BMI to the author’s Telegram profile in the final support section of all three user guides.
 
 - Moved the Search button above category buttons in the main menu.
