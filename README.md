@@ -17,7 +17,7 @@ Find local providers by service, category or phone number. This public repositor
 
 Search examples: `маникюр`, `ремонт`, `0631234567`, `+380631234567`. Search currently matches words in stored listings; automatic translation and every synonym are not supported.
 
-Use **Download in Excel** below search results to receive all matching listings, including later result pages. The file includes categories, services, names, grouped phones and full descriptions. The current search/category filter is preserved. A **full directory** export is available only in the administrator panel.
+Choose **Excel, PDF or TXT** below search results to receive all matching listings, including later result pages. The file includes categories, services, names, grouped phones and full descriptions. The current search/category filter is preserved. A **full directory** export in these formats is available only in the administrator panel. Each file includes a Ukrainian contact footer for @ID_BMI; the footer is italic in PDF and Excel and plain text in TXT.
 
 Categories use compact buttons with icons. Related services share a section: veterinary care, grooming and pet boarding are under **Domestic animals**. Up to 20 listings are shown per result page, followed by navigation buttons. Listing counts beside categories are visible only to administrators.
 
@@ -50,7 +50,7 @@ Contact the author for subscription and data-related requests. Telegram does not
 
 ## Implemented and planned
 
-Available: multilingual Telegraph help, category browsing, service/phone search, grouped provider phones, Ukrainian welcome and support text, administrator statistics and confirmed broadcasts, user-submitted listings with group moderation, user event logs in a separate group topic, Excel export of search results, administrator-only full-directory Excel export, and manual contact entry through the same reviewed form.
+Available: multilingual Telegraph help, category browsing, service/phone search, grouped provider phones, Ukrainian welcome and support text, administrator statistics and confirmed broadcasts, user-submitted listings with group moderation, user event logs in a separate group topic, Excel/PDF/TXT export of search results, administrator-only full-directory export, and manual contact entry through the same reviewed form.
 
 Planned, not yet available: PDF export. These will be documented as they are released.
 
