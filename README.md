@@ -13,6 +13,7 @@ Find local providers by service, category or phone number. This public repositor
 1. Open the bot and press **Start**.
 2. Choose a category, or press **Search** and enter a service or phone number.
 3. Contact the provider using the number in their listing. Confirm availability, prices and terms directly with them.
+4. To offer a service, choose **Add your service**, select a section and type, enter one Ukrainian phone number and a description, then confirm the preview. Local 10-digit numbers are converted to `+380`. The listing stays pending until the administrator approves it.
 
 Search examples: `маникюр`, `ремонт`, `0631234567`, `+380631234567`. Search currently matches words in stored listings; automatic translation and every synonym are not supported.
 
@@ -37,19 +38,28 @@ The bot does not ask you to install collection scripts or give access to your Vi
 
 ## Privacy and security
 
-For user accounting and broadcasts, the bot stores Telegram chat/user identifiers, activity timestamps, subscription status and delivery status. Provider listings contain advertised phone numbers, service descriptions and names when explicitly stated. Search text is processed to return results; Telegram also processes messages under its own policies.
+For user accounting and broadcasts, the bot stores Telegram chat/user identifiers, activity timestamps, subscription status and delivery status. Submitted listings and unfinished form steps are stored so moderation can survive a restart. Submission details and the submitter's Telegram ID are sent to the owner's moderation group. The owner can edit the category, phone and description, approve publication or reject the submission. Provider listings contain advertised phone numbers, service descriptions and names when explicitly stated. Search text is processed to return results; Telegram also processes messages under its own policies.
 
 Bot credentials are kept in deployment settings rather than public documentation. The ingestion endpoint requires authentication. Administrative features check configured administrator identifiers. These controls reduce risk; they are not a guarantee of absolute security or an independent security audit. Private source code alone does not prove that a service is secure.
 
 No password, Telegram login code or bank-card credentials are required to search the directory. Donations are optional. The directory does not verify professional credentials, endorse providers or guarantee work quality. Contact the author to report incorrect information or request review of a listing.
 
-Contact the author for subscription and data-related requests. Telegram does not notify the bot when a user simply deletes their chat; a blocked bot may be detected when sending a message.
+Contact the author for subscription and data-related requests. Telegram does not notify the bot when a user simply deletes their chat; blocking and unblocking can be detected from Telegram bot membership events. First-time interactions and those events are logged in the owner's designated group topic.
 
 ## Implemented and planned
 
-Available: multilingual Telegraph help, category browsing, service/phone search, grouped provider phones, Ukrainian welcome and support text, administrator statistics and confirmed broadcasts.
+Available: multilingual Telegraph help, category browsing, service/phone search, grouped provider phones, Ukrainian welcome and support text, administrator statistics and confirmed broadcasts, user-submitted listings with group moderation, and user event logs in a separate group topic.
 
-Planned, not yet available: user-submitted listings with group moderation, manual administrator contact entry, spreadsheet/PDF export, event logging to a group topic. These will be documented as they are released.
+Planned, not yet available: a dedicated manual administrator contact tool and spreadsheet/PDF export. These will be documented as they are released.
+
+
+## Submissions and moderation
+
+- Choose a category, enter a phone and a 10–1800 character service description, then confirm the preview.
+- The administrator reviews the request in the **Service requests** group topic and can edit its category, phone or description before publishing or rejecting it.
+- Publication checks the phone and category. An existing listing in the same category is updated even when its wording differs; a different category adds a service to the same contact.
+- Drafts and pending requests persist in PostgreSQL. Repeated approval cannot publish a request twice.
+- If Telegram delivery is uncertain, the request remains saved. The administrator can reopen pending requests with `/requests` in the moderation topic.
 
 ## Updates
 
