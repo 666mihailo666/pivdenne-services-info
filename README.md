@@ -17,7 +17,7 @@ Find local providers by service, category or phone number. This public repositor
 
 Search examples: `маникюр`, `ремонт`, `0631234567`, `+380631234567`. Search currently matches words in stored listings; automatic translation and every synonym are not supported.
 
-Choose **Excel, PDF or TXT** below search results to receive all matching listings, including later result pages. The file includes categories, services, names, grouped phones and full descriptions. The current search/category filter is preserved. A **full directory** export in these formats is available only in the administrator panel. Each file includes a Ukrainian contact footer for @ID_BMI; the footer is italic in PDF and Excel and plain text in TXT.
+Choose **Excel, PDF or TXT** below search results to receive all matching listings, including later result pages. The file includes categories, services, names, grouped phones and full descriptions. The current search/category filter is preserved. A **full directory** export in these formats is available only in the administrator panel. The Ukrainian @ID_BMI contact line appears in the Excel header, at the bottom of each PDF page and below the query in TXT. PDF uses the bot avatar, a single-line title, readable service cards and page numbers. The line is italic in Excel/PDF and plain text in TXT. Wait 30 seconds between successful downloads; if buttons expire or the bot restarts, repeat your search.
 
 Categories use compact buttons with icons. Related services share a section: veterinary care, grooming and pet boarding are under **Domestic animals**. Up to 20 listings are shown per result page, followed by navigation buttons. Listing counts beside categories are visible only to administrators.
 
@@ -48,20 +48,33 @@ No password, Telegram login code or bank-card credentials are required to search
 
 Contact the author for subscription and data-related requests. Telegram does not notify the bot when a user simply deletes their chat; blocking and unblocking can be detected from Telegram bot membership events. First-time interactions and those events are logged in the owner's designated group topic.
 
-## Implemented and planned
+## Available features
 
 Available: multilingual Telegraph help, category browsing, service/phone search, grouped provider phones, Ukrainian welcome and support text, administrator statistics and confirmed broadcasts, user-submitted listings with group moderation, user event logs in a separate group topic, Excel/PDF/TXT export of search results, administrator-only full-directory export, and manual contact entry through the same reviewed form.
 
-Planned, not yet available: PDF export. These will be documented as they are released.
 
 
 ## Submissions and moderation
 
-- Choose a category, enter a phone and a 10–1800 character service description, then confirm the preview.
+- Choose a section and service type, enter one complete Ukrainian phone and a 10–1800 character service description, then confirm the preview. Up to three requests may be pending per user. Publication requires administrator approval; users can cancel before submission.
 - The administrator reviews the request in the **Service requests** group topic and can edit its category, phone or description before publishing or rejecting it.
 - Publication checks the phone and category. An existing listing in the same category is updated even when its wording differs; a different category adds a service to the same contact.
 - Drafts and pending requests persist in PostgreSQL. Repeated approval cannot publish a request twice.
-- If Telegram delivery is uncertain, the request remains saved. The administrator can reopen pending requests with `/requests` in the moderation topic.
+- Requests remain saved if Telegram delivery is uncertain; the administrator can reopen pending requests in the designated moderation topic.
+
+## Administrator workflow
+
+The administrator panel is restricted to the configured owner. It provides unique-user statistics (total, active in the last 24 hours and seven days, and broadcast recipients), manual contact entry, all-directory Excel/PDF/TXT downloads, and confirmed broadcasts with delivery summaries. Manual entries use the same review workflow as user submissions.
+
+In the moderation topic the owner can edit category, phone and description, then publish/update or reject. Separate logs report first interactions and bot block/unblock events. Ordinary chat deletion is not detectable. A broadcast requires preview and confirmation; ambiguous deliveries are marked for review rather than automatically resent.
+
+## Troubleshooting
+
+- No results: try a shorter word, Ukrainian/Russian wording or the complete phone number.
+- Expired export button: repeat the search and use the buttons below the new results.
+- Download cooldown: wait 30 seconds before choosing another format.
+- Three requests already pending: wait for a moderation decision.
+- Incorrect published contact: message [@ID_BMI](https://t.me/ID_BMI) with the phone and requested correction.
 
 ## Updates
 
