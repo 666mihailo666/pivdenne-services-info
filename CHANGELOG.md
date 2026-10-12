@@ -2,6 +2,11 @@
 
 ## 12 October 2026
 
+- Added persistent user service submissions: category selection, normalized Ukrainian phone, description and confirmation preview.
+- Added administrator moderation in a dedicated Telegram group topic: edit category/phone/description, publish or reject; repeated approval is idempotent.
+- Prevented duplicate manual listings by matching phone and category before publication.
+- Added first-user, block and unblock event logs in a separate group topic.
+
 - Separated administrator and public command menus; removed internal command details from user help.
 
 - Added Russian and English Telegraph help with a language selector, marked headings, bullet lists and bold highlights; retained Ukrainian help.
