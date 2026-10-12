@@ -2,6 +2,8 @@
 
 ## 12 October 2026
 
+- Published editable Ukrainian help on Telegraph and added a Help button to the bot menu.
+
 - Added Ukrainian welcome and project support text; updated the Telegram profile description.
 - Reduced the category menu from 37 categories to 20 related navigation groups, with icons and two buttons per row.
 - Combined veterinary care, grooming and pet boarding into Domestic animals.
