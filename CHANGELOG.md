@@ -2,6 +2,11 @@
 
 ## 12 October 2026
 
+- Added My announcements for the submitting Telegram user, description revisions and confirmed withdrawal through group moderation; the published version stays unchanged until approval.
+- Retained history while excluding withdrawn versions from search, category counts and future exports; blocked older requests from changing newer shared-phone publications.
+- Simplified new user submissions to one category, selected immediately before phone entry; preserved moderator multi-category support and existing publications.
+- Updated all three language guides and public documentation; verified 100 tests.
+
 - Added 1–3 distinct categories per submission, with optional additional choices, duplicate/max-three validation and atomic moderator publication across categories; preserved existing single-category requests.
 - Added compact Ukrainian/Russian category hashtags to all cards and search matching; generated tags are excluded from all report formats.
 - Updated multilingual help and verified all 97 tests.
