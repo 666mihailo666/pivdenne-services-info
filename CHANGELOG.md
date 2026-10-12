@@ -2,6 +2,9 @@
 
 ## 12 October 2026
 
+- Localized all bot navigation, search prompts, result labels, submission category choices, export category labels, administrator panels and Telegram command descriptions into Ukrainian. Stored category identifiers and original provider text remain unchanged.
+- Synchronized guide button names with the Ukrainian interface; verified 22 menu, submission, export and Telegram checks.
+
 - Translated the main menu heading and empty-directory notice into Ukrainian.
 
 - Rewrote Ukrainian, Russian and English Telegraph guides for the current search, result exports, submission workflow, phone matching, privacy and troubleshooting; removed outdated planned-feature statements.
