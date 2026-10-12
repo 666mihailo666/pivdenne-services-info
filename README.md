@@ -13,7 +13,7 @@ Find local providers by service, category or phone number. This public repositor
 1. Open the bot and press **Start**.
 2. Choose a category, or press **Search** and enter a service or phone number.
 3. Contact the provider using the number in their listing. Confirm availability, prices and terms directly with them.
-4. To offer a service, choose **Add your service**, select 1–3 distinct service categories (one is sufficient), press Continue to phone, enter one Ukrainian phone number and a description, then confirm the preview. Local 10-digit numbers are converted to `+380`. The listing stays pending until the administrator approves it.
+4. To offer a service, choose **Add your service**, select one service category, enter one Ukrainian phone number and a description, then confirm the preview. Local 10-digit numbers are converted to `+380`. The listing stays pending until the administrator approves it.
 
 Search examples: `маникюр`, `ремонт`, `0631234567`, `+380631234567`. Search matches stored listing text and generated Ukrainian/Russian category tags. For example, уборка, прибирання and #прибирання_квартир find the cleaning category. This does not automatically translate every description or cover every synonym. Compact tags appear at the end of cards and are omitted from Excel/PDF/TXT.
 
@@ -56,11 +56,15 @@ Available: multilingual Telegraph help, category browsing, service/phone search,
 
 ## Submissions and moderation
 
-- Choose 1–3 distinct service categories, then enter one complete Ukrainian phone and a 10–1800 character service description, then confirm the preview. Up to three requests may be pending per user. Publication requires administrator approval; users can cancel before submission.
+- Choose one service category, then enter one complete Ukrainian phone and a 10–1800 character service description, then confirm the preview. Up to three requests may be pending per user. Publication requires administrator approval; users can cancel before submission.
 - The administrator reviews the request in the **Service requests** group topic and can edit its category, phone or description before publishing or rejecting it.
-- One request publishes atomically in every selected category. Duplicate category choices and more than three categories are rejected by the form and database validation. Publication checks the phone and category. An existing listing in the same category is updated even when its wording differs; a different category adds a service to the same contact.
+- Users submit one category. Administrators can retain or assign up to three distinct categories during moderation; existing multi-category publications remain supported. Publication across moderator-selected categories is atomic. Publication checks the phone and category. An existing listing in the same category is updated even when its wording differs; a different category adds a service to the same contact.
 - Drafts and pending requests persist in PostgreSQL. Repeated approval cannot publish a request twice.
 - Requests remain saved if Telegram delivery is uncertain; the administrator can reopen pending requests in the designated moderation topic.
+
+## My announcements
+
+Choose **«Мої оголошення»** to see only your own approved submissions, ten at a time. A matching phone in the imported directory does not grant ownership. **«Змінити опис»** proposes a new description while preserving phone and categories; **«Зняти з публікації»** requests withdrawal with confirmation. Both go to the existing moderation topic. The current version remains visible until approval; rejection leaves it unchanged. Approved withdrawal hides that version from search and future reports while retaining history. Only one pending revision per announcement is allowed. Newer directory versions cannot be automatically overwritten or hidden by an older request.
 
 ## Administrator workflow
 
