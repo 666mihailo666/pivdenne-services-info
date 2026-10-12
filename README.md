@@ -43,7 +43,7 @@ Bot credentials are kept in deployment settings rather than public documentation
 
 No password, Telegram login code or bank-card credentials are required to search the directory. Donations are optional. The directory does not verify professional credentials, endorse providers or guarantee work quality. Contact the author to report incorrect information or request review of a listing.
 
-Use `/stop` to unsubscribe from broadcasts; `/start` subscribes again. Unsubscribing does not itself erase stored records. Contact the author for data-related requests. Telegram does not notify the bot when a user simply deletes their chat; a blocked bot may be detected when sending a message.
+Contact the author for subscription and data-related requests. Telegram does not notify the bot when a user simply deletes their chat; a blocked bot may be detected when sending a message.
 
 ## Implemented and planned
 
