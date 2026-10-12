@@ -10,7 +10,7 @@ Find local providers by service, category or phone number. This public repositor
 
 ## Using the bot
 
-1. Open the bot and press **Start**.
+1. Open the bot and press **Start**. A Pivdenne welcome image and Ukrainian introduction appear, followed by the main menu with Search above categories. Use `/menu` to reopen the menu without the image.
 2. Choose a category, or press **Search** and enter a service or phone number.
 3. Contact the provider using the number in their listing. Confirm availability, prices and terms directly with them.
 4. To offer a service, choose **Add your service**, select one service category, enter one Ukrainian phone number and a description, then confirm the preview. Local 10-digit numbers are converted to `+380`. The listing stays pending until the administrator approves it.
