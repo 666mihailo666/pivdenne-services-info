@@ -13,9 +13,9 @@ Find local providers by service, category or phone number. This public repositor
 1. Open the bot and press **Start**.
 2. Choose a category, or press **Search** and enter a service or phone number.
 3. Contact the provider using the number in their listing. Confirm availability, prices and terms directly with them.
-4. To offer a service, choose **Add your service**, select a section and type, enter one Ukrainian phone number and a description, then confirm the preview. Local 10-digit numbers are converted to `+380`. The listing stays pending until the administrator approves it.
+4. To offer a service, choose **Add your service**, select 1–3 distinct service categories (one is sufficient), press Continue to phone, enter one Ukrainian phone number and a description, then confirm the preview. Local 10-digit numbers are converted to `+380`. The listing stays pending until the administrator approves it.
 
-Search examples: `маникюр`, `ремонт`, `0631234567`, `+380631234567`. Search currently matches words in stored listings; automatic translation and every synonym are not supported.
+Search examples: `маникюр`, `ремонт`, `0631234567`, `+380631234567`. Search matches stored listing text and generated Ukrainian/Russian category tags. For example, уборка, прибирання and #прибирання_квартир find the cleaning category. This does not automatically translate every description or cover every synonym. Compact tags appear at the end of cards and are omitted from Excel/PDF/TXT.
 
 Choose **Excel, PDF or TXT** below search results to receive all matching listings, including later result pages. The file includes categories, services, names, grouped phones and full descriptions. The current search/category filter is preserved. A **full directory** export in these formats is available only in the administrator panel. The Ukrainian @ID_BMI contact line appears in the Excel header, at the bottom of each PDF page and below the query in TXT. PDF uses the bot avatar, a single-line title, readable service cards and page numbers. The line is italic in Excel/PDF and plain text in TXT. Wait 30 seconds between successful downloads; if buttons expire or the bot restarts, repeat your search.
 
@@ -56,9 +56,9 @@ Available: multilingual Telegraph help, category browsing, service/phone search,
 
 ## Submissions and moderation
 
-- Choose a section and service type, enter one complete Ukrainian phone and a 10–1800 character service description, then confirm the preview. Up to three requests may be pending per user. Publication requires administrator approval; users can cancel before submission.
+- Choose 1–3 distinct service categories, then enter one complete Ukrainian phone and a 10–1800 character service description, then confirm the preview. Up to three requests may be pending per user. Publication requires administrator approval; users can cancel before submission.
 - The administrator reviews the request in the **Service requests** group topic and can edit its category, phone or description before publishing or rejecting it.
-- Publication checks the phone and category. An existing listing in the same category is updated even when its wording differs; a different category adds a service to the same contact.
+- One request publishes atomically in every selected category. Duplicate category choices and more than three categories are rejected by the form and database validation. Publication checks the phone and category. An existing listing in the same category is updated even when its wording differs; a different category adds a service to the same contact.
 - Drafts and pending requests persist in PostgreSQL. Repeated approval cannot publish a request twice.
 - Requests remain saved if Telegram delivery is uncertain; the administrator can reopen pending requests in the designated moderation topic.
 
