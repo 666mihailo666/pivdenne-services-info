@@ -2,6 +2,8 @@
 
 ## 12 October 2026
 
+- Moved the Search button above category buttons in the main menu.
+
 - Moved the project/author and support section to the end of the Ukrainian, Russian and English user guides.
 
 - Added administrator-only editing buttons on published directory cards: description, grouped phones, category and confirmed withdrawal.
