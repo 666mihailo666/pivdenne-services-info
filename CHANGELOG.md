@@ -2,6 +2,8 @@
 
 ## 12 October 2026
 
+- Linked @ID_BMI to the author’s Telegram profile in the final support section of all three user guides.
+
 - Moved the Search button above category buttons in the main menu.
 
 - Moved the project/author and support section to the end of the Ukrainian, Russian and English user guides.
