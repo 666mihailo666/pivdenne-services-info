@@ -2,6 +2,11 @@
 
 ## 12 October 2026
 
+- Added administrator-only editing buttons on published directory cards: description, grouped phones, category and confirmed withdrawal.
+- Required a confirmation preview, preserved grouped-provider phone numbers and blocked existing-phone collisions and stale edits.
+- Persisted before/after audit history with administrator identity and queued log-topic notifications; kept withdrawn cards out of search and future exports.
+- Updated administrator instructions and public documentation; verified 103 tests.
+
 - Added My announcements for the submitting Telegram user, description revisions and confirmed withdrawal through group moderation; the published version stays unchanged until approval.
 - Retained history while excluding withdrawn versions from search, category counts and future exports; blocked older requests from changing newer shared-phone publications.
 - Simplified new user submissions to one category, selected immediately before phone entry; preserved moderator multi-category support and existing publications.
