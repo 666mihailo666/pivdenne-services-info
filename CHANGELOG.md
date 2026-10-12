@@ -2,6 +2,8 @@
 
 ## 12 October 2026
 
+- Moved the project/author and support section to the end of the Ukrainian, Russian and English user guides.
+
 - Added administrator-only editing buttons on published directory cards: description, grouped phones, category and confirmed withdrawal.
 - Required a confirmation preview, preserved grouped-provider phone numbers and blocked existing-phone collisions and stale edits.
 - Persisted before/after audit history with administrator identity and queued log-topic notifications; kept withdrawn cards out of search and future exports.
