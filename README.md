@@ -66,6 +66,12 @@ Available: multilingual Telegraph help, category browsing, service/phone search,
 
 Choose **«Мої оголошення»** to see only your own approved submissions, ten at a time. A matching phone in the imported directory does not grant ownership. **«Змінити опис»** proposes a new description while preserving phone and categories; **«Зняти з публікації»** requests withdrawal with confirmation. Both go to the existing moderation topic. The current version remains visible until approval; rejection leaves it unchanged. Approved withdrawal hides that version from search and future reports while retaining history. Only one pending revision per announcement is allowed. Newer directory versions cannot be automatically overwritten or hidden by an older request.
 
+## Editing published listings (administrator)
+
+The configured administrator sees **«Редагувати»** below directory results, including imported and user-submitted listings. Description, grouped phones and category can be changed with a preview and explicit Save confirmation. Multiple numbers for the same provider remain together. The service title and other services of that contact are preserved. Existing phone/contact collisions are blocked rather than silently merged or duplicated. A stale preview cannot overwrite a newer listing.
+
+Withdrawal also requires confirmation and hides the selected card from search, category counts and future exports while retaining its history. These buttons are unavailable to ordinary users, and callbacks check the administrator identity. Editing drafts and buttons expire after 30 minutes. Every committed operation records the administrator ID and before/after data, with a notification queued for the owner's log topic.
+
 ## Administrator workflow
 
 The administrator panel is restricted to the configured owner. It provides unique-user statistics (total, active in the last 24 hours and seven days, and broadcast recipients), manual contact entry, all-directory Excel/PDF/TXT downloads, and confirmed broadcasts with delivery summaries. Manual entries use the same review workflow as user submissions.
