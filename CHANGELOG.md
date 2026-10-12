@@ -2,6 +2,9 @@
 
 ## 12 October 2026
 
+- Refined PDF styling with the bot avatar, a single-line directory title, larger service headings and phone numbers, and clearer spacing on every page.
+- Fixed server installation of italic PDF fonts; placed the Ukrainian contact line in the Excel header, below the TXT search label and at the bottom of each PDF page.
+
 - Added PDF and UTF-8 TXT downloads for filtered search results and administrator-only full-directory exports.
 - Embedded Cyrillic fonts in PDF and added page numbers and a clickable italic Ukrainian contact footer on each page.
 - Added the same footer in italic at the end of Excel files and as plain text at the end of TXT files.
