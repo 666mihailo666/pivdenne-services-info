@@ -2,6 +2,8 @@
 
 ## 12 October 2026
 
+- Separated administrator and public command menus; removed internal command details from user help.
+
 - Added Russian and English Telegraph help with a language selector, marked headings, bullet lists and bold highlights; retained Ukrainian help.
 
 - Published editable Ukrainian help on Telegraph and added a Help button to the bot menu.
