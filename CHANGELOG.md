@@ -2,6 +2,8 @@
 
 ## 12 October 2026
 
+- Added Russian and English Telegraph help with a language selector, marked headings, bullet lists and bold highlights; retained Ukrainian help.
+
 - Published editable Ukrainian help on Telegraph and added a Help button to the bot menu.
 
 - Added Ukrainian welcome and project support text; updated the Telegram profile description.
