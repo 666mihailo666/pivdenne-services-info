@@ -2,6 +2,8 @@
 
 ## 13 October 2026
 
+- Added an owner-submitted homemade-food delivery listing after a live phone/category check, retaining the advertised stew, meatballs, pâté, lard and sweet-chili details.
+
 - Added an owner-submitted eurofence and metalwork listing after checking its phone against the live directory; retained the advertised canopy, gate, painting and automation details.
 
 - Added an owner-reviewed winter window-servicing card after a live phone/category duplicate check; kept adjustment and seal replacement separate from unadvertised mosquito-screen services.
