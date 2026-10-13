@@ -1,5 +1,12 @@
 # Change log
 
+## 13 October 2026
+
+- Added two owner-reviewed cards from supplied images: window manufacturing with grouped phones, and home injections/infusions with the provider's doctor-prescription condition retained.
+- Checked the chess club and flower-delivery contacts against the live directory and skipped existing entries.
+- Added authenticated owner-only conditional imports that check the live phone/category before writing; preserved existing descriptions and grouped provider phones.
+- Expanded explicit window/home-medical classification and verified 108 tests.
+
 ## 12 October 2026
 
 - Added Telegram profile display names below user IDs in first-user and block/unblock event logs; kept names on one line and verified sender identity.
