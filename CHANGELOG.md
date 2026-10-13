@@ -2,6 +2,8 @@
 
 ## 13 October 2026
 
+- Added an owner-reviewed football section for ages 6–14 at School No. 2 after a live phone/category duplicate check; classified coaching support as part of the sports listing, not a separate psychologist service.
+
 - Added the owner-submitted Propechat printing/copying listing after a live phone/category duplicate check; retained its address and full advertised service list.
 
 - Added an owner-submitted homemade-food delivery listing after a live phone/category check, retaining the advertised stew, meatballs, pâté, lard and sweet-chili details.
