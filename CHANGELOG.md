@@ -2,6 +2,8 @@
 
 ## 13 October 2026
 
+- Added an owner-reviewed real-estate agency with three grouped contact numbers and weekday hours; extended the existing Plaza repair service with the additional phone verified on its sign, preserving existing descriptions and service identities.
+
 - Added an owner-reviewed football section for ages 6–14 at School No. 2 after a live phone/category duplicate check; classified coaching support as part of the sports listing, not a separate psychologist service.
 
 - Added the owner-submitted Propechat printing/copying listing after a live phone/category duplicate check; retained its address and full advertised service list.
