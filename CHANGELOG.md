@@ -2,6 +2,8 @@
 
 ## 13 October 2026
 
+- Added an owner-reviewed winter window-servicing card after a live phone/category duplicate check; kept adjustment and seal replacement separate from unadvertised mosquito-screen services.
+
 - Added two owner-reviewed cards from supplied images: window manufacturing with grouped phones, and home injections/infusions with the provider's doctor-prescription condition retained.
 - Checked the chess club and flower-delivery contacts against the live directory and skipped existing entries.
 - Added authenticated owner-only conditional imports that check the live phone/category before writing; preserved existing descriptions and grouped provider phones.
