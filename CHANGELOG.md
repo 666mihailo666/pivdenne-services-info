@@ -2,6 +2,8 @@
 
 ## 13 October 2026
 
+- Added the owner-submitted Propechat printing/copying listing after a live phone/category duplicate check; retained its address and full advertised service list.
+
 - Added an owner-submitted homemade-food delivery listing after a live phone/category check, retaining the advertised stew, meatballs, pâté, lard and sweet-chili details.
 
 - Added an owner-submitted eurofence and metalwork listing after checking its phone against the live directory; retained the advertised canopy, gate, painting and automation details.
