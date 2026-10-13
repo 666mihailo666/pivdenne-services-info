@@ -2,6 +2,9 @@
 
 ## 13 October 2026
 
+- Published the owner-reviewed Green House card using two supplied screenshots and the official menu site, including its address, phone, daily hours, Instagram and online-ordering links.
+- Added an explicitly reviewed owner-update mode that retains an existing phone/category service identity instead of duplicating a renamed listing; historical add-only behavior stays unchanged. Verified 109 tests.
+
 - Added an owner-reviewed real-estate agency with three grouped contact numbers and weekday hours; extended the existing Plaza repair service with the additional phone verified on its sign, preserving existing descriptions and service identities.
 
 - Added an owner-reviewed football section for ages 6–14 at School No. 2 after a live phone/category duplicate check; classified coaching support as part of the sports listing, not a separate psychologist service.
