@@ -2,6 +2,8 @@
 
 ## 13 October 2026
 
+- Added an owner-reviewed hourly handyman and loader listing with one provider phone, preserving the advertised household repairs, furniture handling, moving help and Pivdenne call-out terms.
+
 - Added the owner-submitted TOTORO Sushi delivery listing after a live duplicate check, grouping both contact numbers and retaining its address, online menu and Instagram links.
 
 - Published the owner-reviewed Green House card using two supplied screenshots and the official menu site, including its address, phone, daily hours, Instagram and online-ordering links.
