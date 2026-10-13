@@ -2,6 +2,8 @@
 
 ## 13 October 2026
 
+- Added the owner-submitted TOTORO Sushi delivery listing after a live duplicate check, grouping both contact numbers and retaining its address, online menu and Instagram links.
+
 - Published the owner-reviewed Green House card using two supplied screenshots and the official menu site, including its address, phone, daily hours, Instagram and online-ordering links.
 - Added an explicitly reviewed owner-update mode that retains an existing phone/category service identity instead of duplicating a renamed listing; historical add-only behavior stays unchanged. Verified 109 tests.
 
